@@ -1,0 +1,166 @@
+{
+  "HALProvider": {
+    "Other Devices": {
+      "Talon SRX[1]/Quad Encoder": {
+        "header": {
+          "open": true
+        }
+      },
+      "Talon SRX[2]": {
+        "header": {
+          "open": true
+        }
+      },
+      "Talon SRX[2]/Quad Encoder": {
+        "header": {
+          "open": true
+        }
+      },
+      "navX-Sensor[4]": {
+        "header": {
+          "open": true
+        }
+      }
+    },
+    "RoboRIO": {
+      "3.3V Rail": {
+        "open": true
+      }
+    }
+  },
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/SmartDashboard/Field": "Field2d",
+      "/SmartDashboard/VisionSystemSim-main/Sim Field": "Field2d"
+    },
+    "windows": {
+      "/SmartDashboard/Field": {
+        "Robot": {
+          "arrowSize": 36,
+          "length": 0.6000000238418579,
+          "style": "Box/Image",
+          "width": 0.5
+        },
+        "bottom": 1476,
+        "height": 8.210550308227539,
+        "left": 150,
+        "path": {
+          "arrowSize": 0,
+          "style": "Line"
+        },
+        "right": 2961,
+        "target pose": {
+          "arrowColor": [
+            1.0,
+            0.0,
+            0.0,
+            255.0
+          ],
+          "arrowSize": 33,
+          "color": [
+            0.24343854188919067,
+            0.8148148059844971,
+            0.1720164716243744,
+            255.0
+          ],
+          "length": 0.4000000059604645,
+          "width": 0.4000000059604645
+        },
+        "top": 79,
+        "width": 16.541748046875,
+        "window": {
+          "visible": true
+        }
+      }
+    }
+  },
+  "NetworkTables": {
+    "transitory": {
+      "SmartDashboard": {
+        "Drive Subsystem": {
+          "int[]##v_/SmartDashboard/Drive Subsystem/Motorcontroller Faults": {
+            "open": true
+          },
+          "open": true
+        },
+        "Field": {
+          "double[]##v_/SmartDashboard/Field/Robot": {
+            "open": true
+          },
+          "open": true
+        },
+        "open": true
+      }
+    }
+  },
+  "NetworkTables Info": {
+    "DartClient_76178872@1": {
+      "open": true
+    },
+    "visible": true
+  },
+  "Plot": {
+    "Plot <0>": {
+      "plots": [
+        {
+          "axis": [
+            {
+              "autoFit": true
+            }
+          ],
+          "backgroundColor": [
+            0.0,
+            0.0,
+            0.0,
+            0.8500000238418579
+          ],
+          "crosshairs": true,
+          "height": -49,
+          "legendLocation": 6,
+          "series": [
+            {
+              "color": [
+                0.2980392277240753,
+                0.44705885648727417,
+                0.6901960968971252,
+                1.0
+              ],
+              "id": "NT:/SmartDashboard/Drive Subsystem/Left Encoder Velocity"
+            },
+            {
+              "color": [
+                0.3333333432674408,
+                0.658823549747467,
+                0.4078431725502014,
+                1.0
+              ],
+              "id": "NT:/SmartDashboard/Set l Speed"
+            },
+            {
+              "color": [
+                0.7686275243759155,
+                0.30588236451148987,
+                0.32156863808631897,
+                1.0
+              ],
+              "id": "NT:/SmartDashboard/Set r Speed"
+            },
+            {
+              "color": [
+                0.8666667342185974,
+                0.5176470875740051,
+                0.32156863808631897,
+                1.0
+              ],
+              "id": "NT:/SmartDashboard/Drive Subsystem/Right Encoder Velocity"
+            }
+          ]
+        }
+      ],
+      "window": {
+        "visible": false
+      }
+    }
+  }
+}
